@@ -30,12 +30,17 @@ cd aidb-devops
 terraform init
 ```
 
-### 3. Apply Terraform Configuration
+### 3. Plan Terraform Configuration
+```sh
+terraform plan
+```
+
+### 4. Apply Terraform Configuration
 ```sh
 terraform apply -auto-approve
 ```
 
-### 4. Access the Applications
+### 5. Access the Applications
 - Angular Frontend: http://aidb.com
 - Node.jsBackend: http://172.100.0.10:5000
 - MongoDB: Accessible within the Docker network
