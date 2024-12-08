@@ -13,7 +13,6 @@ This project sets up a complete DevOps environment using Docker and Terraform fo
 ## Prerequisites
 
 - Docker
-- Docker Compose
 - Terraform
 - Git
 
