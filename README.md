@@ -21,8 +21,8 @@ This project sets up a complete DevOps environment using Docker and Terraform fo
 ### 1. Clone the Repository
 
 ```sh
-git clone https://github.com/yourusername/devops-project.git
-cd devops-project
+git clone https://github.com/lillabajnai/aidb-devops
+cd aidb-devops
 ```
 
 ### 2. Initialize Terraform
