@@ -1,0 +1,38 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+*.tfplan
+*.tfplan.*
+
+# Crash log files
+crash.log
+
+# .terraform directory
+.terraform/
+.terraform.lock.hcl
+
+# Sensitive files
+*.pem
+*.key
+*.p12
+*.cer
+*.der
+
+# Ignore editor and OS-specific files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignore log files
+*.log
+
+# Ignore Docker files
+docker-compose.override.yml
+docker-compose.override.yaml
