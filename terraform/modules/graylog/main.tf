@@ -86,7 +86,7 @@ resource "docker_container" "graylog" {
 
   networks_advanced {
     name = var.network
-    ipv4_address = "172.100.0.12"
+    ipv4_address = "172.100.0.90"
   }
 
   env = [

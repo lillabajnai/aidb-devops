@@ -18,7 +18,7 @@ resource "docker_container" "grafana" {
 
   networks_advanced {
     name = var.network
-    ipv4_address = "172.100.0.5"
+    ipv4_address = "172.100.0.80"
   }
 
   ports {
