@@ -48,6 +48,12 @@ module "angular_app" {
   container_name = "${var.project_name}-angular"
 }
 
+# Jenkins modul
+module "jenkins" {
+    source = "./modules/jenkins"
+    container_name = "${var.project_name}-jenkins"
+}
+
 # Prometheus modul
 module "prometheus" {
     source = "./modules/prometheus"
